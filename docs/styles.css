@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(255, 239, 246);
+}
+img{
+    width:100%;
+    /*margin-left: 10%;*/
+    /*margin-right:10%;*/
+}
+button{
+    margin-top: 20px;
+    margin-left:42vw;
+    width:185px;
+    height:56px;
+    color:white;
+    background-color: #00d6af;
+    border-style: none;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:15px;
+    outline: none;
+    cursor:pointer;
+}
+footer h2{
+    color: #00d6af;
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+}
+footer h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color:#00d6af;
+    text-align:center;
+}
+
+.redes{
+    text-align: center;
+}
+a i{
+    color:#00d6af;
+    font-size: 50px;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.logo{
+    margin-top: 20px;
+    width:45px;
+    height:25px;
+    opacity:0.8;
+}
+
+#moskaliaref {
+    margin-top: -80px;
+    text-decoration-line: none;
+}
+.desc-mosk{
+    margin-top: -20px;
+    color:#00d6af;
+    font-family: 'Montserrat', sans-serif;
+    align-content: center;
+    font-size:9px;
+}
+
+.title-mosk{
+    font-size:13px;
+    color:#00d6af;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+@media (max-width: 360px) {
+    button{
+        margin-left:22vw;
+    }
+    .redes{
+        align-items: center;
+        border-style:dashed;
+        width:55vw;
+    }
+}
+@media (max-width: 414px) {
+    button{
+        margin-left:29vw;
+    }
+    .redes{
+        margin-left:32%;
+    }
+}
+@media (max-width: 411px) {
+    button{
+        margin-left:29vw;
+    }
+    .redes{
+        margin-left:32%;
+    }
+}
+@media (max-width: 768px) {
+    button{
+        margin-left:38vw;
+    }
+    .redes{
+        margin-left:40%;
+    }
+}
+@media (max-width: 450px) {
+    button{
+        margin-left:28vw;
+    }
+    .redes{
+        margin-left:32%;
+    }
+}
+@media (max-width: 500px) {
+    button{
+        margin-left:28vw;
+    }
+    .redes{
+        margin-left:33%;
+    }
+}
+@media (max-width: 540px) {
+    button{
+        margin-left:23vw;
+    }
+    .redes{
+        margin-left:31%;
+    }
+}
+
